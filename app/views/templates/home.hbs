@@ -1,18 +1,19 @@
 <div class="span10 offset1">
-	<div class="hero-unit">
-		<h1>{{ title }}</h1>
-		<p>{{{ details }}}</p>
-		<ul>
-			{{#each items}}
-				<li>{{{ this }}}</li>
-			{{/each}}
-		</ul>
-		<a href="#" class="toggleExpand">x</a>
-	</div>
+  <div class="hero-unit">
+    <h1>{{ title }}</h1>
+    <p>{{{ details }}}</p>
+    <ul>
+      {{#each items}}
+        <li>{{{ this }}}</li>
+      {{/each}}
+    </ul>
+    <p style="text-align: center"><img src="{{ img }}"></img></p>
+    <a href="#" class="toggleExpand">x</a>
+  </div>
 </div>
 <div class="pagination pagination-centered" style="position: absolute; bottom: 0">
-	<ul>
-		<li><a href="#" class="movePrevious">&lt;&lt;</a></li>
-		<li><a href="#" class="moveNext">&gt;&gt;</a></li>
-	</ul>
+  <ul>
+    <li><a href="#" class="movePrevious">&lt;&lt;</a></li>
+    <li><a href="#" class="moveNext">&gt;&gt;</a></li>
+  </ul>
 </div>
